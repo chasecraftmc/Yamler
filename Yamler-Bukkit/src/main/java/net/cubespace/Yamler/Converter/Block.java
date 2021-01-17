@@ -43,9 +43,9 @@ public class Block implements Converter {
         String[] temp = ((String) blockMap.get("id")).split(":");
         block.setType(Material.valueOf(temp[0]));
 
-        if (temp.length == 2) {
-            block.setData(Byte.valueOf(temp[1]));
-        }
+//        if (temp.length == 2) {
+//            block.setData(Byte.valueOf(temp[1]));
+//        }
 
         return block;
     }
