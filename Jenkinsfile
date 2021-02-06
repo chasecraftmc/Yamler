@@ -11,7 +11,7 @@ pipeline {
 
   tools {
     maven 'M3'
-    jdk 'JDK 14'
+    jdk 'j8'
   }
 
   triggers {
